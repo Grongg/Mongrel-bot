@@ -21,7 +21,6 @@ namespace Mongrel_Bot
         private readonly IServiceCollection map = new ServiceCollection();
         private readonly CommandService commands = new CommandService();
 
-
         private Program()
         {
             client = new DiscordSocketClient(new DiscordSocketConfig
@@ -53,7 +52,6 @@ namespace Mongrel_Bot
 
         public async Task HandleCommandAsync(SocketMessage arg)
         {
-
             var msg = arg as SocketUserMessage;
             if (msg == null) return;
 
