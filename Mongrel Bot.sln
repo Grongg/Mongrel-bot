@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongrel Bot", "Mongrel Bot\Mongrel Bot.csproj", "{3FBE40A2-4E9D-4784-AEB0-2D2D33B20571}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongrel Bot", "Mongrel Bot\Mongrel Bot.csproj", "{F36FEC50-C6CB-482A-A14C-04B98FA40A17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3FBE40A2-4E9D-4784-AEB0-2D2D33B20571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FBE40A2-4E9D-4784-AEB0-2D2D33B20571}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FBE40A2-4E9D-4784-AEB0-2D2D33B20571}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FBE40A2-4E9D-4784-AEB0-2D2D33B20571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36FEC50-C6CB-482A-A14C-04B98FA40A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36FEC50-C6CB-482A-A14C-04B98FA40A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36FEC50-C6CB-482A-A14C-04B98FA40A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36FEC50-C6CB-482A-A14C-04B98FA40A17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {35C4FFDB-33DC-424A-98DC-5039C149AE94}
+		SolutionGuid = {0BA8ACD3-0BBA-4108-9AD8-1C67556D4A40}
 	EndGlobalSection
 EndGlobal
