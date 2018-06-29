@@ -100,31 +100,4 @@ namespace Mongrel_Bot
             return Task.CompletedTask;
         }
     }
-
-    public class CommunicationModule : ModuleBase
-    {
-        [Command("Hi"), Summary("Answer with hi"), Alias("Hello")]
-        public async Task SayHi()
-        {
-            await ReplyAsync("Hi");
-        }
-    }
-    public class DisplayImage : ModuleBase
-    {
-        [Command("image", RunMode = RunMode.Async), Summary("Display an image")]
-
-        public async Task GetImage()
-        {
-            using (WebClient wc = new WebClient())
-            {
-                string jp = wc.DownloadString("http://safebooru.org/index.php?page=dapi&s=post&q=index&limit=1");
-                string[] str = jp.Split(new string[] { "file_url" }, StringSplitOptions.RemoveEmptyEntries);
-                string[] str2 = str[1].Split(new char[] { '"' }, StringSplitOptions.RemoveEmptyEntries);
-                string str3 = "http:" + str2[1];
-
-                await ReplyAsync("Here goes nothing");
-                await ReplyAsync(str3);
-            }
-        }
-    }
 }
