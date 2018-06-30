@@ -13,7 +13,12 @@ namespace Mongrel_Bot
         {
             using (WebClient wc = new WebClient())
             {
-                string jp = wc.DownloadString("http://safebooru.org/index.php?page=dapi&s=post&q=index&limit=1");
+                string pj = wc.DownloadString("http://safebooru.org/index.php?page=dapi&s=post&q=index&limit=1&pid=");
+                string[] post = pj.Split('"');
+
+                int max = Convert.ToInt32(post[5]);
+                int rand = Program.rand.Next(max);
+                string jp = wc.DownloadString("http://safebooru.org/index.php?page=dapi&s=post&q=index&limit=1&pid=" + rand);
                 string[] str = jp.Split(new string[] { "file_url" }, StringSplitOptions.RemoveEmptyEntries);
                 string[] str2 = str[1].Split(new char[] { '"' }, StringSplitOptions.RemoveEmptyEntries);
                 string str3 = "http:" + str2[1];

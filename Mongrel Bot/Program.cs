@@ -18,6 +18,7 @@ namespace Mongrel_Bot
             => new Program().MainAsync().GetAwaiter().GetResult();
 
         public readonly DiscordSocketClient client;
+        public static Random rand = new Random();
         private readonly IServiceCollection map = new ServiceCollection();
         private readonly CommandService commands = new CommandService();
 
