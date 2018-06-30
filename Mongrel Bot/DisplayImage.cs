@@ -23,8 +23,6 @@ namespace Mongrel_Bot
         [Command("RandImage", RunMode = RunMode.Async), Summary("Display an image")]
         public async Task GetImage(params string[] ag)
         {
-            try
-            {
                 string FinalString = Addrand(ag);
                 string[] str = FinalString.Split(new string[] { "file_url" }, StringSplitOptions.RemoveEmptyEntries);
                 string[] str2 = str[1].Split(new char[] { '"' }, StringSplitOptions.RemoveEmptyEntries);
@@ -32,8 +30,6 @@ namespace Mongrel_Bot
 
                 await ReplyAsync("Here goes nothing");
                 await ReplyAsync(str3);
-              
-            }catch(Exception E) { await ReplyAsync(E.Message); }
         }
     }
 }
