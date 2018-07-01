@@ -127,6 +127,7 @@
   <ItemGroup>
     <Compile Include="CommunicationModule.cs" />
     <Compile Include="DisplayImage.cs" />
+    <Compile Include="help.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

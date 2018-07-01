@@ -43,6 +43,7 @@ namespace Mongrel_Bot
 
             await commands.AddModuleAsync<CommunicationModule>(); // Pour créer un module
             await commands.AddModuleAsync<DisplayImage>();
+            await commands.AddModuleAsync<HelpModule>();
             // Login and connect.
             await client.LoginAsync(TokenType.Bot, File.ReadAllText("token.txt"));
             await client.StartAsync();
@@ -92,7 +93,6 @@ namespace Mongrel_Bot
                     Console.ForegroundColor = ConsoleColor.DarkGray;
                     break;
             }
-            //Console.WriteLine($"{DateTime.Now,-19} [{msg.Severity,8}] {msg.Source}: {msg.Message}");
             Console.WriteLine(msg);
             Console.ForegroundColor = cc;
 
