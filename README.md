@@ -5,10 +5,35 @@
 
 First Discord Bot created by Lionel De Sousa
 
-Mongrel
+# Mongrel
 
 The role of Mongrel is to display images.
 You can display random images if you don't enter any tag but it will be always safe for work (SFW).
 If you want to use a specific tag, you have the choise with two sites:
 - Safebooru
 - Gelbooru
+
+# Usefull link and External libraries used
+
+Links: </br>
+
+[Trello](https://trello.com/b/CP30NdgO/mongrel-bot)</br>
+[Invite the bot to join your discord](https://discordapp.com/api/oauth2/authorize?client_id=462028109118439434&permissions=18432&scope=bot)
+
+Lib :</br>
+
+[Discord.Net](https://github.com/RogueException/Discord.Net)<br/>
+
+# Commands
+
+- Randimage </br>
+
+- Randimage gelbooru </br>
+
+- Randimage safebooru </br>
+
+- Randimage gelbooru + tags </br>
+
+- Randimage safebooru + tags </br>
+
+- help/h </br>
