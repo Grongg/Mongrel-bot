@@ -5,3 +5,4 @@ before_build:
 
 build:
   project: Mongrel Bot.sln
+  
