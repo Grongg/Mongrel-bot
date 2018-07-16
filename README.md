@@ -1,4 +1,6 @@
 # Mongrel-bot
+[![CodeFactor](https://www.codefactor.io/repository/github/Lionel-De-Sousa/Mongrel-bot/badge)](https://www.codefactor.io/repository/github/Lionel-De-Sousa/Mongrel-bot)<br/>
+
 First Discord Bot created by Lionel De Sousa
 
 Mongrel
