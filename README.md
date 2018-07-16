@@ -1,2 +1,3 @@
 # Mongrel-bot
-mongrel
+Premier Bot Discord créer par Lionel De Sousa
+
